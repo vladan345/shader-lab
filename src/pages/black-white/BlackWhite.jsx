@@ -2,7 +2,7 @@ import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
 import Scene from "./Scene";
 
-function Simple() {
+function BlackWhite() {
   return (
     <>
       <div id="canvas">
@@ -15,4 +15,4 @@ function Simple() {
   );
 }
 
-export default Simple;
+export default BlackWhite;
