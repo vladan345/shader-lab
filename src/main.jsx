@@ -8,22 +8,24 @@ import Layout from "./components/Layout.jsx";
 
 import "./index.css";
 import Shockwave from "./pages/shockwave/Shockwave.jsx";
+import Tutorial from "./pages/tutorial/Tutorial.jsx";
 
 const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Layout />,
-    children: [
-      { path: "/", element: <App /> },
-      { path: "/simple", element: <Simple /> },
-      { path: "/black-white", element: <BlackWhite /> },
-      { path: "/shockwave", element: <Shockwave /> },
-    ],
-  },
+   {
+      path: "/",
+      element: <Layout />,
+      children: [
+         { path: "/", element: <App /> },
+         { path: "/simple", element: <Simple /> },
+         { path: "/black-white", element: <BlackWhite /> },
+         { path: "/shockwave", element: <Shockwave /> },
+         { path: "/tutorial", element: <Tutorial /> },
+      ],
+   },
 ]);
 
 createRoot(document.getElementById("root")).render(
-  <StrictMode>
-    <RouterProvider router={router} />
-  </StrictMode>
+   <StrictMode>
+      <RouterProvider router={router} />
+   </StrictMode>
 );
