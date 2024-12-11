@@ -2,7 +2,7 @@ import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
 import Scene from "./Scene";
 import { Grid } from "@react-three/drei";
-function Tutorial() {
+function Morph() {
    return (
       <>
          <div id="canvas">
@@ -20,4 +20,4 @@ function Tutorial() {
    );
 }
 
-export default Tutorial;
+export default Morph;

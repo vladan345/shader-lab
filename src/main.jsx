@@ -8,7 +8,8 @@ import Layout from "./components/Layout.jsx";
 
 import "./index.css";
 import Shockwave from "./pages/shockwave/Shockwave.jsx";
-import Tutorial from "./pages/tutorial/Tutorial.jsx";
+import Morph from "./pages/morph/Morph.jsx";
+import Dithering from "./pages/dithering/Dithering.jsx";
 
 const router = createBrowserRouter([
    {
@@ -19,7 +20,8 @@ const router = createBrowserRouter([
          { path: "/simple", element: <Simple /> },
          { path: "/black-white", element: <BlackWhite /> },
          { path: "/shockwave", element: <Shockwave /> },
-         { path: "/tutorial", element: <Tutorial /> },
+         { path: "/morph", element: <Morph /> },
+         { path: "/dithering", element: <Dithering /> },
       ],
    },
 ]);

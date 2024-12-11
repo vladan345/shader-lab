@@ -12,7 +12,11 @@ export const links = [
       url: "/shockwave",
    },
    {
-      title: "Tutorial",
-      url: "/tutorial",
+      title: "Morph",
+      url: "/morph",
+   },
+   {
+      title: "Dithering",
+      url: "/dithering",
    },
 ];
