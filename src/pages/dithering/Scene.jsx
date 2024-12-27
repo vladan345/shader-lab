@@ -6,6 +6,7 @@ import vertex from "./shaders/vertex.vert";
 import fragment from "./shaders/fragment.frag";
 import { useControls } from "leva";
 import { useFrame } from "@react-three/fiber";
+
 class RetroEffectImpl extends Effect {
    constructor({ matrixSize = 8.0, bias = 0.5 }) {
       const uniforms = new Map([

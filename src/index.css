@@ -13,8 +13,9 @@ body {
    overflow: auto;
 }
 
-#canvas {
-   width: 100%;
+#canvas,
+#canvas canvas {
+   width: 100% !important;
    height: 100vh;
    background: #080a07;
 }

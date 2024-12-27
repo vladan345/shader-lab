@@ -19,4 +19,8 @@ export const links = [
       title: "Dithering",
       url: "/dithering",
    },
+   {
+      title: "Book Of Shader",
+      url: "/book-of-shader",
+   },
 ];

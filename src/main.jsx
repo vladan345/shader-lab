@@ -10,6 +10,7 @@ import "./index.css";
 import Shockwave from "./pages/shockwave/Shockwave.jsx";
 import Morph from "./pages/morph/Morph.jsx";
 import Dithering from "./pages/dithering/Dithering.jsx";
+import BookOfShader from "./pages/book-of-shader/BookOfShader.jsx";
 
 const router = createBrowserRouter([
    {
@@ -22,6 +23,7 @@ const router = createBrowserRouter([
          { path: "/shockwave", element: <Shockwave /> },
          { path: "/morph", element: <Morph /> },
          { path: "/dithering", element: <Dithering /> },
+         { path: "/book-of-shader", element: <BookOfShader /> },
       ],
    },
 ]);
